@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sueu Voting System</title>
+    <link rel="stylesheet"  href="css/bootstrap.min.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body ng-app="myapp" ng-controller="showForm">
+    <nav>
+        <img src="images/logo.png" alt="egerton logo" class="img1">
+    </nav>
+    <form action="">
+        <input type="text" name="regno" >
+        <img src="">
+        <button>Upload image</button>
+        <button type="submit" value="{{buttonvalue}}" ng-click="hideandshow = !hideandshow">search</button>
+    </form>
+
+    <!--After searching display this form to fill and add contestant-->
+    <form action=""ng-show="hideandshow" >
+        <img src="..." alt="Collins Kiplagat" >
+        <p>Collins Kiplagat</p>
+    </form>
+   
+    <script src="js/angular.min.js"></script>
+    </body>
+</html>
